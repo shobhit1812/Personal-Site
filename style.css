@@ -56,16 +56,25 @@ a:hover{
     background-color: #FFF8F3;    
     position: relative;
     padding-top: 100px;
+    display: block;
+    flex-wrap: nowrap;
+    box-sizing: content-box;
 }
 
 .middle-container{
     margin-top: 100px ;
     /* background-color: #BAABDA; */
+    display: block;
+    flex-wrap: nowrap;
+    box-sizing: content-box;
 }
 
 .last-container{
     background-color: #F2FFE9;
     padding: 50px 0 20px;
+    display: block;
+    flex-wrap: nowrap;
+    box-sizing: content-box;
 }
 
 .skill-row{
